@@ -7,13 +7,13 @@ import Footer from "./footer";
 
 export function MyApp () {
     return (
-        <>
+        <div>
         <MyNavbar/>
-        <div className="container-fluid"><CenterImg {...{rounded: true}}/></div>
+        <div id='#myDiv' ><CenterImg {...{rounded: true}}/><Footer/></div>
         
-        <Footer/>
+        
         {/* <p>Hello React</p> */}
-        </>
+        </div>
     )
 }
 
