@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
+import './MyApp.css';
 import Navbar from './myNavbar';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
@@ -12,6 +13,7 @@ import Contact from './pages/Contact';
 import InfoTable from './pages/InfoTable';
 import Another from './pages/another';
 import MyApp from './pages/MyApp';
+import Checkout from './pages/checkout';
 
 function App() {
 return (
@@ -23,7 +25,7 @@ return (
         <Route path='/contact' element={<Contact/>} />
         <Route path='/info' element={<InfoTable/>} />
         <Route path='/another' element={<Another/>} />
-        
+        <Route path='/cart' element={<Checkout/>} />
 
     </Routes>
     </Router>

@@ -4,7 +4,7 @@ import food from './food.jpg'
 
 export function CenterImg (){
     return (
-        <img id="mainImg" src={food} class="img-fluid"/>
+        <img id="mainImg" src={food} className="img-fluid"/>
         // <Image > </Image>
     )
 }

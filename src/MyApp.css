@@ -16,3 +16,18 @@
 body{
     background-color: black !important;
 }
+
+.center {
+    text-align: center;
+}
+
+.alignC {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.myCard {
+    height: 700px;
+    width: auto;
+}
