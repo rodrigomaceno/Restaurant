@@ -1,14 +1,13 @@
 import React from "react";
-import MyNavbar from "./myNavbar";
-import { CenterImg } from "./CenterImg";
-import './MyApp.css'
-import Footer from "./footer";
+import { CenterImg } from "../CenterImg";
+import '../MyApp.css'
+import Footer from "../footer";
 
 
-export function MyApp () {
+  function MyApp () {
     return (
         <div>
-        <MyNavbar/>
+        
         <div id='#myDiv' ><CenterImg {...{rounded: true}}/><Footer/></div>
         
         
@@ -16,4 +15,6 @@ export function MyApp () {
         </div>
     )
 }
+
+export default MyApp;
 
