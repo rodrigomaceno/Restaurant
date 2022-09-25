@@ -12,7 +12,7 @@ function MyNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             
-            <Nav.Link href="./page2.html"> Pasta</Nav.Link>
+            <Nav.Link href="#page2"> Pasta</Nav.Link>
             <Nav.Link href="#page3"> Burgers</Nav.Link>
             <NavDropdown title="Full Menu" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
