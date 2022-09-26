@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from 'react-router-dom'; // I added this
-import CardButton from './components/cartButton';
+import CartButton from './components/cartButton';
 
 function MyNavbar() {
   return (
@@ -16,12 +16,15 @@ function MyNavbar() {
             
             <Nav.Link href="/pasta"> Pasta</Nav.Link>
             <Nav.Link href="/burger"> Burgers</Nav.Link>
+            <Nav.Link href="/info"> Pizzas</Nav.Link>
+            <Nav.Link href="/another"> Dessert</Nav.Link>
+            <Nav.Link href="#"> Drinks</Nav.Link>
             <NavDropdown title="Our Menu" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/info">Action</NavDropdown.Item>
+              <NavDropdown.Item href="/info">Pizzas</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/another"}>
-                Another action
+                Dessert
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Beverages</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
@@ -33,7 +36,7 @@ function MyNavbar() {
 
           </Nav>
         </Navbar.Collapse>
-        <CardButton/>
+        <CartButton/>
       </Container>
     </Navbar>
   );

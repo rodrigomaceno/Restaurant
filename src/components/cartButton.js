@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function CardButton () {
+function CartButton () {
     // ???
     function d () {
         return(
@@ -23,4 +23,4 @@ function CardButton () {
     )
 }
 
-export default CardButton;
+export default CartButton;

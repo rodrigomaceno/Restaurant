@@ -8,7 +8,7 @@ function Checkout() {
     <div className='container '>
         <div className='card myCard alignC'>
             <div className='card-header'>Review Your Order</div>
-            <div className='card-body'><p className='card-text'> Body</p></div>
+            <div className='card-body'><p className='card-text'> </p></div>
             <Confirm/>
         </div>
     </div>
