@@ -13,9 +13,9 @@
     position: relative;
 }
 
-body{
+/* body{
     background-color: black !important;
-}
+} */
 
 .center {
     text-align: center;
@@ -30,4 +30,10 @@ body{
 .myCard {
     height: 700px;
     width: auto;
+}
+
+.confirm{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

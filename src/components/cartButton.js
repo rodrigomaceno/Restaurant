@@ -14,8 +14,11 @@ function CardButton () {
     //       <button class="btn btn-outline-success" type="submit">Search</button>
     //       </form>
           
-          
-          <button onClick={d} className=" ms-auto btn btn-outline-success" type="submit">Cart</button>
+    <form action="/cart">
+        <button className="ms-auto btn btn-outline-success" type="submit">Cart</button>
+    </form>
+
+        //   <button onClick={d} className=" ms-auto btn btn-outline-success" type="submit">Cart</button>
           
     )
 }

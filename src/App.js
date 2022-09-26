@@ -8,8 +8,8 @@ import { BrowserRouter as Router, Routes, Route}
 
 
 import Home from './pages/Home';
-import About from './pages/About';  
-import Contact from './pages/Contact';
+import Pasta from './pages/pasta';  
+import Burger from './pages/burger';
 import InfoTable from './pages/InfoTable';
 import Another from './pages/another';
 import MyApp from './pages/MyApp';
@@ -21,8 +21,8 @@ return (
      <Navbar />
     <Routes>
         <Route path='/' element={<MyApp/>} />  
-        <Route path='/about' element={<About/>} />
-        <Route path='/contact' element={<Contact/>} />
+        <Route path='/pasta' element={<Pasta/>} />
+        <Route path='/burger' element={<Burger/>} />
         <Route path='/info' element={<InfoTable/>} />
         <Route path='/another' element={<Another/>} />
         <Route path='/cart' element={<Checkout/>} />

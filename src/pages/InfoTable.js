@@ -1,8 +1,12 @@
 import React from 'react'
+import Request from '../components/customOrder'
 
 function InfoTable() {
   return (
-    <div>InfoTable</div>
+    <>
+      <div className='center'>What would you like for your toppings?<Request/></div>
+      
+    </>
   )
 }
 

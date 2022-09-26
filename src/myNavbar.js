@@ -9,14 +9,14 @@ function MyNavbar() {
   return (
     <Navbar bg="light"  expand="lg">
       <Container>
-        <Navbar.Brand  href="/">Mac's Bistro</Navbar.Brand>
+        <Navbar.Brand  href="/">Mac's Diner</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             
-            <Nav.Link href="/about"> Pasta</Nav.Link>
-            <Nav.Link href="/contact"> Burgers</Nav.Link>
-            <NavDropdown title="Full Menu" id="basic-nav-dropdown">
+            <Nav.Link href="/pasta"> Pasta</Nav.Link>
+            <Nav.Link href="/burger"> Burgers</Nav.Link>
+            <NavDropdown title="Our Menu" id="basic-nav-dropdown">
               <NavDropdown.Item href="/info">Action</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/another"}>
                 Another action
